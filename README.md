@@ -5,7 +5,7 @@
 >**NOTE:** The project is *Vite-ReactJS based*
 
 ## Deployment
-Checkout this React-App by clicking [here]().
+Checkout this React-App by clicking [here](https://react-quick-crux.vercel.app).
 
 # Getting Started
 ## Installation
