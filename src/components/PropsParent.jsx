@@ -8,7 +8,7 @@ const PropsParent = () => {
             <h1 className='text-center mt-5 text-3xl font-bold'>Props</h1>
             <PropsChild name={name} />
             <button
-                className='border border-red-500 flex justify-center items-center mx-auto'
+                className='border border-primary px-10 py-5 rounded-xl flex justify-center items-center mx-auto'
                 onClick={() =>
                     name === 'Eren' ? setName('Mikasa') : setName('Eren')
                 }

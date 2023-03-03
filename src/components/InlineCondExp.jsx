@@ -9,7 +9,7 @@ const InlineCondExp = () => {
                 {value ? <p>True</p> : <p> False</p>}
             </div>
             <button
-                className='border border-red-500 flex justify-center items-center mx-auto'
+                className='border border-primary px-10 py-5 rounded-xl flex justify-center items-center mx-auto'
                 onClick={() => (value ? setValue(false) : setValue(true))}
             >
                 Change Name
