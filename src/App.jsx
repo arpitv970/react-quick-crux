@@ -1,4 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom';
+import EventHandling from './components/EventHandling';
 import Home from './components/Home';
 import InlineCondExp from './components/InlineCondExp';
 import MapFilter from './components/MapFilter';
@@ -22,6 +23,7 @@ const App = () => {
                     path='/inline-cond-expression'
                     element={<InlineCondExp />}
                 />
+                <Route path='/event-handling' element={<EventHandling />} />
             </Routes>
         </div>
     );
