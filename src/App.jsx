@@ -1,5 +1,6 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import InlineCondExp from './components/InlineCondExp';
 import MapFilter from './components/MapFilter';
 import PropsParent from './components/PropsParent';
 import State from './components/State';
@@ -17,6 +18,10 @@ const App = () => {
                 <Route path='/map-filter' element={<MapFilter />} />
                 <Route path='/state' element={<State />} />
                 <Route path='/props' element={<PropsParent />} />
+                <Route
+                    path='/inline-cond-expression'
+                    element={<InlineCondExp />}
+                />
             </Routes>
         </div>
     );
