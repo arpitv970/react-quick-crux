@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import MapFilter from './components/MapFilter';
+import State from './components/State';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/map-filter' element={<MapFilter />} />
+                <Route path='/state' element={<State />} />
             </Routes>
         </div>
     );

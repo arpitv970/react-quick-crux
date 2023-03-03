@@ -10,9 +10,12 @@ const Home = () => {
                         Map & Filter
                     </li>
                 </Link>
-                <li className='border border-primary text-primary-500 line-through text-center h-[100%] w-[100%] flex justify-center items-center rounded-xl hover:bg-primary hover:text-white transition-all ease-in-out duration-300 cursor-pointer m-auto p-4'>
-                    States in React
-                </li>
+
+                <Link to='/state'>
+                    <li className='border border-primary text-primary-500 text-center h-[100%] w-[100%] flex justify-center items-center rounded-xl hover:bg-primary hover:text-white transition-all ease-in-out duration-300 cursor-pointer m-auto p-4'>
+                        States in React
+                    </li>
+                </Link>
                 <li className='border border-primary text-primary-500 line-through text-center h-[100%] w-[100%] flex justify-center items-center rounded-xl hover:bg-primary hover:text-white transition-all ease-in-out duration-300 cursor-pointer m-auto p-4'>
                     Props in React
                 </li>
