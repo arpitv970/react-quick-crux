@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import MapFilter from './components/MapFilter';
+import PropsParent from './components/PropsParent';
 import State from './components/State';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path='/' element={<Home />} />
                 <Route path='/map-filter' element={<MapFilter />} />
                 <Route path='/state' element={<State />} />
+                <Route path='/props' element={<PropsParent />} />
             </Routes>
         </div>
     );
